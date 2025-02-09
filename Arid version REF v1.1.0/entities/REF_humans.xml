@@ -391,6 +391,38 @@
         </Human>
     </Entity>
 
+
+
+<Entity name="Rabble MP40" type="Human" fogOfWarVisibility="hidden" editorAutoHeight="false" editorTags="enemy,rabble">
+ <RenderObject3D model="data/models/humans/ranger_support.khm" diffuseTex="data/models/humans/RGF_conscript.dds"/>
+        <RenderObject3D model="data/models/humans/attachments/ranger_support_vest.khm" diffuseTex="data/models/humans/attachments/RGF_vest.dds"/>
+        <RenderObject3D model="data/models/humans/attachments/kneepads_esp.khm" diffuseTex="data/models/humans/attachments/kneepads_esp.dds"/>
+        <Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+ <PhysicalParams health="100"/>
+ <Human type="BadGuy">
+ <FOV degrees="75" distanceMeters="999" eyeRadiusMeters="1.0"/>
+ <Brain startingBehavior="Normal Guy" defaultBehavior="Normal Guy" combatBehavior="Normal Combat" suppressionRecovery="5.0"/>
+<Id name="Conscript" portrait="data/textures/portraits/RGF_OPFOR.dds" gender="0" voicePack="enemy arabic"/>
+ <Traits chanceToBlindFire="0.2" stopsToShoot="false"/>
+ <Mobility>
+  <MoveSpeed min="0.6" defaultMetersPerSec="2.2" max="9"/>
+  <TurnSpeed min="6" defaultMetersPerSec="13" max="20"/>
+ </Mobility>
+<Equipment>
+ <Item name="MP40"/>
+</Equipment>
+</Human>
+</Entity>
+
+
+
+
+
+
+
+
+
+	
     <Entity name="Rabble Bolt Action" type="Human" fogOfWarVisibility="hidden" editorAutoHeight="false" editorTags="enemy">
         <RenderObject3D model="data/models/humans/ranger_support.khm" diffuseTex="data/models/humans/RGF_conscript.dds"/>
         <RenderObject3D model="data/models/humans/attachments/ranger_marksman_vest.khm" diffuseTex="data/models/humans/attachments/RGF_vest.dds"/>
@@ -488,6 +520,58 @@
             </Equipment>
         </Human>
     </Entity>
+
+<Entity name="FA Fanatic Stormtroop" type="Human" fogOfWarVisibility="hidden" editorAutoHeight="false" editorTags="enemy,s-vest">
+   <RenderObject3D model="data/models/humans/ranger_assaulter.khm" diffuseTex="data/models/humans/RGF_shortmask.dds"/>
+        <RenderObject3D model="data/models/humans/attachments/swat_leader_vest.khm" diffuseTex="data/models/humans/attachments/RGF_vest.dds"/>
+        <Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+<PhysicalParams health="100"/>
+<Human type="BadGuy">
+<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.5"/>
+<Brain startingBehavior="Normal Guy" defaultBehavior="Normal Guy" combatBehavior="Suicide Combat" suppressionRecovery="35.0"/>
+<Traits chanceToAmbush="0.2" usesSuppressionFire="true" ignoresDangerAreas="true" stopsToShoot="false" chanceToThrowGrenade="0.10" suicideHPThreshold="10"/>
+<Id name="Spetsnaz" portrait="data/textures/portraits/RGF_OPFOR.dds" gender="0" voicePack="enemy arabic leader"/>
+<Mobility>
+<MoveSpeed min="0.9" defaultMetersPerSec="2.1" max="14"/>
+<TurnSpeed min="6" defaultMetersPerSec="13" max="20"/>
+</Mobility>
+<Equipment>
+          <Item name="REF_AK74MR"/>
+                <Item name="Kobra_RGF_OPFOR"/>
+                <Item name="REF_MP443"/>
+                <Item name="REF_rpoz"/>
+                <Item name="REF_special_helmet"/>
+                <Item name="REF_light_armor"/>
+</Equipment>
+</human>
+	
+</Entity>
+
+	<Entity name="FA Fanatic Stormtroop G" type="Human" fogOfWarVisibility="hidden" editorAutoHeight="false" editorTags="enemy,s-vest">
+   <RenderObject3D model="data/models/humans/ranger_assaulter.khm" diffuseTex="data/models/humans/RGF_shortmask.dds"/>
+        <RenderObject3D model="data/models/humans/attachments/swat_leader_vest.khm" diffuseTex="data/models/humans/attachments/RGF_vest.dds"/>
+        <Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+<PhysicalParams health="100"/>
+<Human type="BadGuy">
+<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.5"/>
+<Brain startingBehavior="Normal Guy" defaultBehavior="Normal Guy" combatBehavior="Suicide Combat" suppressionRecovery="35.0"/>
+<Traits chanceToAmbush="0.2" usesSuppressionFire="true" ignoresDangerAreas="true" stopsToShoot="false" chanceToThrowGrenade="0.10" suicideHPThreshold="10"/>
+<Id name="Spetsnaz" portrait="data/textures/portraits/RGF_OPFOR.dds" gender="0" voicePack="enemy arabic leader"/>
+<Mobility>
+<MoveSpeed min="0.9" defaultMetersPerSec="2.1" max="14"/>
+<TurnSpeed min="6" defaultMetersPerSec="13" max="20"/>
+</Mobility>
+<Equipment>
+          <Item name="REF_AK74MR"/>
+                <Item name="Kobra_RGF_OPFOR"/>
+                <Item name="REF_MP443"/>
+                <Item name="RGF_RGD_OPFOR"/>
+                <Item name="REF_special_helmet"/>
+                <Item name="REF_light_armor"/>
+</Equipment>
+</Human>
+</Entity>
+
 
     <Entity name="FAdvisor Leader" type="Human" fogOfWarVisibility="hidden" editorAutoHeight="false" editorTags="enemy">
 		<RenderObject3D model="data/models/humans/ranger_support.khm" diffuseTex="data/models/humans/RGF_longface_SF.dds"/>
