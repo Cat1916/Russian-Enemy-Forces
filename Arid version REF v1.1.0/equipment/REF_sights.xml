@@ -37,7 +37,7 @@
 					maxAimTime2="-100"
 					resetTime="-10"
 					accuracyAdd="+20"
-					critChanceAdd="+15"
+					critChanceAdd="+10"
 				/>
 			</AttackTypeModifier>
 
@@ -47,7 +47,7 @@
 					maxAimTime2="-200"
 					resetTime="-80"
 					accuracyAdd="+75"
-					critChanceAdd="+20"
+					critChanceAdd="+15"
 				/>
 			</AttackTypeModifier>
 
@@ -57,7 +57,7 @@
 					maxAimTime2="-200"
 					resetTime="-100"
 					accuracyAdd="+90"
-					critChanceAdd="+25"
+					critChanceAdd="+20"
 				/>
 			</AttackTypeModifier>
 
@@ -364,7 +364,7 @@
 					maxAimTime2="-250"
 					resetTime="-95"
 					accuracyAdd="+75"
-					critChanceAdd="+22"
+					critChanceAdd="+18"
 				/>
 			</AttackTypeModifier>
 
@@ -374,7 +374,7 @@
 					maxAimTime2="-250"
 					resetTime="-60"
 					accuracyAdd="+100"
-					critChanceAdd="+30"
+					critChanceAdd="+20"
 				/>
 			</AttackTypeModifier>
 
@@ -437,7 +437,7 @@
 					maxAimTime2="-200"
 					resetTime="-80"
 					accuracyAdd="+75"
-					critChanceAdd="+20"
+					critChanceAdd="+15"
 				/>
 			</AttackTypeModifier>
 
@@ -447,7 +447,7 @@
 					maxAimTime2="-200"
 					resetTime="-100"
 					accuracyAdd="+90"
-					critChanceAdd="+25"
+					critChanceAdd="+20"
 				/>
 			</AttackTypeModifier>
 
