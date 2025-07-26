@@ -22,4 +22,4 @@ Uberchad: T-Shirt model.
 Red: UI icons.
 Levan: 6B27 woodland texture and model, PP-19-01 UI icon, uniforms template (modification of Briz's).
 Briz: Kneepad model and texture.
-D-Boy: Field cap model, 6B47 model and textures, Mosin model and texture.
+D-Boy: Field cap model, 6B47 model and textures, Mosin model and texture, AK74M model texture and UI, AK12 model texture and UI, 1P87 optic.
